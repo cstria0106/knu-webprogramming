@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table TAG 연습</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        .big{
+            width:100px;
+            height:100px
+        }
+
+        .medium{
+            width:50px;
+            height:50px
+        }
+
+        .small{
+            width:25px;
+            height:25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Table TAG 연습 (과제 #03-01)</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td class="big">1</td>
+                <td class="big" colspan="3">2</td>
+            </tr>
+            <tr>
+                <td class="big" rowspan="3">3</td>
+                <td class="medium">4</td>
+                <td class="medium" colspan="2">5</td>
+            </tr>
+            <tr>
+                <td class="medium" rowspan="2">6</td>
+                <td class="small">7</td>
+                <td class="small">8</td>
+            </tr>
+            <tr>
+                <td class="small">9</td>
+                <td class="small">10</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

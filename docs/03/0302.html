@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>&lt;canvas&gt; 사용예</title>
+</head>
+
+<body>
+    <h1>&lt;canvas&gt; 사용예 (과제 #03-02)</h1>
+    <canvas id="canvas" width="200px" height="100px"></canvas>
+    <script>
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+
+        context.beginPath();
+        context.moveTo(0, 0);
+        context.lineTo(200, 100);
+        context.moveTo(0, 100);
+        context.lineTo(200, 0);
+        context.stroke();
+
+    </script>
+</body>
+
+</html>
