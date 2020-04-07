@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <title>iframe</title>
+    <style>
+        iframe {
+            width: 200px;
+            height: 200px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+<h3>iframe 공간 분할 예제(#04-01)</h3>
+<p>
+    첫번째 &lt;iframe&gt; :
+    <a target="first" href="box_red.html">빨강</a> |
+    <a target="first" href="box_green.html">녹색</a> |
+    <a target="first" href="box_blue.html">파랑</a> |
+    <br>
+    두번째 &lt;iframe&gt; :
+    <a target="second" href="box_red.html">빨강</a> |
+    <a target="second" href="box_green.html">녹색</a> |
+    <a target="second" href="box_blue.html">파랑</a> |
+    <br>
+    세번째 &lt;iframe&gt; :
+    <a target="third" href="box_red.html">빨강</a> |
+    <a target="third" href="box_green.html">녹색</a> |
+    <a target="third" href="box_blue.html">파랑</a> |
+</p>
+<p>
+    <iframe src="box_red.html" name="first"></iframe>
+    <iframe src="box_green.html" name="second"></iframe>
+    <iframe src="box_blue.html" name="third"></iframe>
+</p>
+</body>
+</html>
